@@ -77,6 +77,8 @@
     background-color: var(--btn-color);
     color: white;
     align-self: flex-start;
+    font-family: inherit;
+    font-weight: 600;
 }
 
 #submit-btn:hover {
