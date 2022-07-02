@@ -207,7 +207,7 @@ export default function DashBoard() {
         
         if (token == null) {
             // If there is no token, go back to sign in page
-            navigate('/aem_enersol-angular_test')
+            navigate('/')
         } else {
             // If token exists, fetch dashboard data
             fetchDashData(dataApiUrl, token)

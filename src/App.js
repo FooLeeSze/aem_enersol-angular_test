@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/aem_enersol-angular_test" element={<SignIn />} />
-        <Route path="/aem_enersol-angular_test/dashboard" element={<DashBoard />} />
+        <Route path="/" element={<SignIn />} />
+        <Route path="/dashboard" element={<DashBoard />} />
       </Routes>
     </div>
   );
