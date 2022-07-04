@@ -9,7 +9,12 @@ Dashboard interface created with React consisting of two main components (Sign I
 - [Git](https://git-scm.com/) for source code version control
 
 ## Usage
+Install dependencies
+
+```npm install```
+
 Run application
-``` npm start ```. 
+
+``` npm start ``` 
  
 User must first sign in with authenticated credentials (username and password) in order to access the Dashboard
